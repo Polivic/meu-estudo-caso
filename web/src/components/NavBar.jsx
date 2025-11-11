@@ -40,24 +40,6 @@ export default function NavBar() {
             Produtos
           </Button>
 
-          <Button
-            variant="outlined"
-            startIcon={<Add />}
-            sx={{
-              color: "#fff",
-              borderColor: "#fff",
-              textTransform: "none",
-              fontWeight: "bold",
-              borderRadius: 2,
-              "&:hover": {
-                backgroundColor: "rgba(255,255,255,0.2)",
-                borderColor: "#fff",
-              },
-            }}
-            onClick={() => navigate("/novo")}
-          >
-            Novo Produto
-          </Button>
         </Box>
       </Toolbar>
     </AppBar>
